@@ -1,0 +1,121 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+.profile {
+
+}
+
+#logo {
+ height: 90px;  
+ position: absolute; 
+ top: 5px;
+ left: 5px;
+}
+
+.nav1 {
+   /* position: absolute;
+    Right: 10px;
+    top: 40px;*/
+    float: right;
+    margin: 40px 10px 0px 0px;
+    
+   
+}
+.container {
+    width: 1000px;
+    margin: 125px auto 0px auto; /* if i use only 0px and auto=centers it*/
+   
+}
+
+.bar {
+    margin: 0px;
+    height: 100px;
+    width: 100vw; 
+    background: black; 
+}
+
+
+
+#profile {
+    width:150px;
+    float: left;
+    margin-right: 15px;
+}
+
+#friends {
+    list-style: disc;
+    
+    float: right;
+
+}
+
+#friendsoff {
+    list-style: circle;
+
+    float: right;
+   
+}
+li {
+    text-align: left;
+}
+
+.left-div {
+    width:85%;
+    float: left;
+    padding: 5px;
+}
+.right-div {
+    width:15%;
+    float: right;
+    padding: 5px;
+}
+.box1 {
+    width: 250px;
+    overflow: scroll;
+    background-color: rgb(231, 235, 225);
+    padding: 5px;
+    
+}
+.box2 {
+    width: 250px;
+    overflow: scroll;
+    background-color: rgb(240, 236, 234);
+    padding: 5px;
+}
+#post {
+    border:thin;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .left-div {
+        width:100%;
+        float: left;
+        padding: 5px;
+    }}
+
+@media only screen and (max-width: 768px) {
+    .right-div {
+        width:100%;
+        float: right;
+        padding: 5px;
+    }}
+    @media only screen and (max-width: 768px) {
+    .box1 {
+        width: 250px;
+        overflow: scroll;
+        background-color: rgb(231, 235, 225);
+        padding: 5px;
+        
+    }}
+    @media only screen and (max-width: 768px) {
+    .box2 {
+        width: 250px;
+        overflow: scroll;
+        background-color: rgb(240, 236, 234);
+        padding: 5px;
+    }
+            
